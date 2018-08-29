@@ -13,6 +13,8 @@
 		EA28FE5321356841008B048D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA28FE5221356841008B048D /* Assets.xcassets */; };
 		EA28FE5621356841008B048D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA28FE5421356841008B048D /* LaunchScreen.storyboard */; };
 		EA28FE6321356F5F008B048D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6221356F5F008B048D /* CategoryCell.swift */; };
+		EA28FE652136739E008B048D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE642136739E008B048D /* Category.swift */; };
+		EA28FE68213675C7008B048D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE67213675C7008B048D /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EA28FE5521356841008B048D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA28FE5721356841008B048D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA28FE6221356F5F008B048D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		EA28FE642136739E008B048D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		EA28FE67213675C7008B048D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EA28FE4A21356840008B048D /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				EA28FE66213675B3008B048D /* Services */,
 				EA28FE5F21356EE9008B048D /* View */,
 				EA28FE5E21356EE0008B048D /* Model */,
 				EA28FE5D21356E66008B048D /* Controller */,
@@ -79,6 +84,7 @@
 		EA28FE5E21356EE0008B048D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EA28FE642136739E008B048D /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				EA28FE6221356F5F008B048D /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EA28FE66213675B3008B048D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA28FE67213675C7008B048D /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				EA28FE4E21356840008B048D /* CategoriesVC.swift in Sources */,
 				EA28FE4C21356840008B048D /* AppDelegate.swift in Sources */,
 				EA28FE6321356F5F008B048D /* CategoryCell.swift in Sources */,
+				EA28FE652136739E008B048D /* Category.swift in Sources */,
+				EA28FE68213675C7008B048D /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

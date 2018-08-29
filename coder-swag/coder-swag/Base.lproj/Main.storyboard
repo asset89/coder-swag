@@ -35,8 +35,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirts" translatesAutoresizingMaskIntoConstraints="NO" id="rpY-zx-yo9">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="139.5"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shirts" translatesAutoresizingMaskIntoConstraints="NO" id="rpY-zx-yo9">
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="133.5"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHIRTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkK-zV-Ab0">
                                                     <rect key="frame" x="121" y="58" width="132" height="24"/>
@@ -51,11 +51,11 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="rpY-zx-yo9" secondAttribute="trailing" id="6D4-wh-gpw"/>
-                                                <constraint firstItem="rpY-zx-yo9" firstAttribute="top" secondItem="i8I-8z-yXN" secondAttribute="top" id="cOs-oZ-CoX"/>
                                                 <constraint firstItem="MkK-zV-Ab0" firstAttribute="centerY" secondItem="i8I-8z-yXN" secondAttribute="centerY" id="kNJ-5Z-tM9"/>
                                                 <constraint firstItem="rpY-zx-yo9" firstAttribute="leading" secondItem="i8I-8z-yXN" secondAttribute="leading" id="kil-KP-vp1"/>
-                                                <constraint firstAttribute="bottom" secondItem="rpY-zx-yo9" secondAttribute="bottom" id="nFr-eT-xrc"/>
+                                                <constraint firstAttribute="bottom" secondItem="rpY-zx-yo9" secondAttribute="bottom" constant="3" id="p7w-Vg-cfG"/>
                                                 <constraint firstItem="MkK-zV-Ab0" firstAttribute="centerX" secondItem="i8I-8z-yXN" secondAttribute="centerX" id="spE-nq-efy"/>
+                                                <constraint firstItem="rpY-zx-yo9" firstAttribute="top" secondItem="i8I-8z-yXN" secondAttribute="top" constant="3" id="vlx-ZW-36E"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
