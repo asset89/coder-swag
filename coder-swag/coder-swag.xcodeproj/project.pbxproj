@@ -15,6 +15,7 @@
 		EA28FE6321356F5F008B048D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6221356F5F008B048D /* CategoryCell.swift */; };
 		EA28FE652136739E008B048D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE642136739E008B048D /* Category.swift */; };
 		EA28FE68213675C7008B048D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE67213675C7008B048D /* DataService.swift */; };
+		EA28FE6A21397D55008B048D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6921397D55008B048D /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EA28FE6221356F5F008B048D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		EA28FE642136739E008B048D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		EA28FE67213675C7008B048D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		EA28FE6921397D55008B048D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EA28FE6221356F5F008B048D /* CategoryCell.swift */,
+				EA28FE6921397D55008B048D /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				EA28FE4E21356840008B048D /* CategoriesVC.swift in Sources */,
 				EA28FE4C21356840008B048D /* AppDelegate.swift in Sources */,
 				EA28FE6321356F5F008B048D /* CategoryCell.swift in Sources */,
+				EA28FE6A21397D55008B048D /* ProductCell.swift in Sources */,
 				EA28FE652136739E008B048D /* Category.swift in Sources */,
 				EA28FE68213675C7008B048D /* DataService.swift in Sources */,
 			);
