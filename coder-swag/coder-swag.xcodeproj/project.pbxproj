@@ -17,6 +17,7 @@
 		EA28FE68213675C7008B048D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE67213675C7008B048D /* DataService.swift */; };
 		EA28FE6A21397D55008B048D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6921397D55008B048D /* ProductCell.swift */; };
 		EA28FE6C21397F6C008B048D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6B21397F6C008B048D /* Product.swift */; };
+		EA28FE6E213D016C008B048D /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA28FE6D213D016C008B048D /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		EA28FE67213675C7008B048D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		EA28FE6921397D55008B048D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		EA28FE6B21397F6C008B048D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EA28FE6D213D016C008B048D /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				EA28FE4D21356840008B048D /* CategoriesVC.swift */,
+				EA28FE6D213D016C008B048D /* ProductVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				EA28FE4C21356840008B048D /* AppDelegate.swift in Sources */,
 				EA28FE6321356F5F008B048D /* CategoryCell.swift in Sources */,
 				EA28FE6A21397D55008B048D /* ProductCell.swift in Sources */,
+				EA28FE6E213D016C008B048D /* ProductVC.swift in Sources */,
 				EA28FE652136739E008B048D /* Category.swift in Sources */,
 				EA28FE68213675C7008B048D /* DataService.swift in Sources */,
 				EA28FE6C21397F6C008B048D /* Product.swift in Sources */,
